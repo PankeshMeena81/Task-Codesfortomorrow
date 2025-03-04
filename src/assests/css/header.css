@@ -1,0 +1,122 @@
+
+
+.header-bg{
+    background-color: #EBF2F7;
+}
+
+.header-content{
+    box-shadow: 5px 5px 20px rgb(201, 198, 198);
+    border-radius: 20px;
+    height: 100vh;
+
+}
+.image img {
+    width: 51px;
+height: 51px;
+margin: 0px 30px;
+}
+.icon-box{
+    background-color: #A3FFD3;
+   
+margin: 10px 0px;
+
+}
+.icon-box .menu1{
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background: #EBF2F7;
+    padding: 20px;
+  
+}
+.icon-box .menu2{
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background: #EBF2F7;
+    padding: 20px;
+   
+}
+.icon-box .menu2.active{
+    background: #A3FFD3;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  
+}
+.icon-box .menu1.active{
+    background: #A3FFD3;
+  
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+/* CSS */
+.button-19 {
+    appearance: button;
+    background-color: #A3FFD3;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 2px;
+    box-sizing: border-box;
+    color: black;
+   
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    white-space: nowrap;
+    
+  }
+
+  
+  .button-19.active {
+    background: #FFAFAF;
+  }
+  .cross-btn{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+    font-size: 22px;
+  }
+
+  .card-imgs img {
+    width: 67px;
+height: 67px;
+margin: 10px 20px;
+}
+.card-items{
+    height: 350px;
+}
+
+  .offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 80% !important;
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    transform: translateX(-100%);
+}
+.button-none{
+    border-radius: 50%  ;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: rgb(158, 154, 154);
+}
+
+.button-prev{
+    border-radius: 50%  ;
+    width: 40px;
+    height: 40px;
+    color: gray;
+    background-color: rgb(252, 251, 251);
+}
